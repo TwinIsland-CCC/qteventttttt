@@ -8,7 +8,7 @@ class mylabel : public QLabel
 {
     Q_OBJECT
 public:
-    explicit mylabel(QLabel *parent = nullptr);
+	explicit mylabel(QWidget *parent = nullptr);
 
     void enterEvent(QEvent *event);
 
