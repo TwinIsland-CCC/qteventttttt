@@ -2,7 +2,7 @@
 #include <QDebug>
 #include <QMouseEvent>
 
-mylabel::mylabel(QLabel *parent) : QLabel(parent)
+mylabel::mylabel(QWidget *parent) : QLabel(parent)
 {
 
 }
